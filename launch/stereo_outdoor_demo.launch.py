@@ -36,9 +36,9 @@ def generate_launch_description():
 
     parameters={
           'frame_id':'base_footprint',
-          'subscribe_rgbd':True,
-          'approx_sync':False, # odom is generated from images, so we can exactly sync all inputs
-          'map_negative_poses_ignored':True,
+          'subscribe_rgbd': True,
+          'approx_sync': True, # odom is generated from images, so we can exactly sync all inputs
+          'map_negative_poses_ignored': True,
           'subscribe_odom_info': True,
           # RTAB-Map's internal parameters should be strings
           'OdomF2M/MaxSize': '1000',
