@@ -1,8 +1,0 @@
-torch
-torchvision
-pyaml
-typeguard
-opencv-python
-numpy<2
-segmentation_models_pytorch
-open3d

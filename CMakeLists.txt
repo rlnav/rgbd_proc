@@ -29,10 +29,7 @@ install(
 )
 
 install(PROGRAMS
-    src/save_data.py
-    src/depth_estimation.py
-    src/depth_filter.py
-    src/depth_refinement.py
+    # src/depth_estimation.py
     DESTINATION lib/${PROJECT_NAME}
 )
 
